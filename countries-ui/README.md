@@ -1,7 +1,5 @@
 # Countries App
-The purpose of building this App is to learn about Angular. More specifically this:
-- Familiarize myself with Angular code
-- Pratice integrating Angular App with backend REST Api.
+The purpose of building this App is to learn about Angular. 
 
 ## Service dependencies
 This React App is calling the REST services implemented here:
