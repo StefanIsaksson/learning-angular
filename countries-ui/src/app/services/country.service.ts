@@ -16,4 +16,14 @@ export class CountryService {
     let countries = this.http.get('/server/api/v1/country');
     return countries;
   }
+
+  getCountry(id: number){
+    return this.http.get('/server/api/v1/country/' + id);
+  }
+
+  createCountry(country) {
+    let body = JSON.stringify(country);
+    return this.http.post('/server/api/v1/country', body, httpOptions);
+  }
+
 }

@@ -8,7 +8,7 @@
     </tr>
     <tr *ngFor="let country of countries">
       <td>
-        {{country.name}}
+        <a [routerLink]="['/admin/view', country.id]">{{country.name}}</a>
       </td>
       <td>
         {{country.code}}
