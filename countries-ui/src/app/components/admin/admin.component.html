@@ -1,0 +1,24 @@
+<div class="container">
+  <table class="table table-bordered table-inverse">
+    <tr>
+      <th>Name</th>
+      <th>Code</th>
+      <th>Continent</th>
+      <th class="text-right">Population</th>
+    </tr>
+    <tr *ngFor="let country of countries">
+      <td>
+        {{country.name}}
+      </td>
+      <td>
+        {{country.code}}
+      </td>
+      <td>
+        {{country.continent}}
+      </td>
+      <td class="text-right">
+        {{country.population}}
+      </td>
+    </tr>
+  </table>
+</div>
